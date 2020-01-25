@@ -1,0 +1,22 @@
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+body {
+  background-image: url('../img/Endless-Constellation.svg');
+  color: white;
+}
+div {
+  width: 100%;
+}
+#portrait {
+  width: 20%;
+}
+#contact {
+  width: 50%;
+  float: left;
+}
+#passions {
+  width: 50%;
+  float: right;
+}
