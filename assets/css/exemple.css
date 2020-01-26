@@ -1,0 +1,63 @@
+/* Met la largeur de la page à 100% */
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+/* Affiche l'image en fond d'écran */
+body {
+  background-image: url('../img/Endless-Constellation.svg');
+  /* Change la couleur du texte à "blanc" */
+  color: white;
+  font-size: 110%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+/* Met la largeur de chaque boite à 100% */
+div {
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+/* Permet à tous les titres d'être souligné */
+h1, h2, h3 {
+  text-decoration: underline;
+}
+/* Boite "présentation" */
+#presentation {
+  text-align: center;
+}
+/* image de présentation */
+#portrait {
+  width: 15%;
+}
+#premierParagraphe {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+/* Boite "compétences" */
+#competences {
+  text-align: center;
+}
+#listeDeCompetences {
+  padding-left: 0;
+}
+#listeDeCompetences li {
+  display: inline;
+  border: 3px solid green;
+  padding: 5px;
+}
+#deuxiemeCompetence {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+/* Boite "portfolio" */
+#portfolio {
+  text-align: center;
+}
+#premierePhoto {
+  height: 300px;
+  border: 8px outset blue;
+}
+#deuxiemePhoto {
+  height: 300px;
+  border: 8px outset blue;
+}
