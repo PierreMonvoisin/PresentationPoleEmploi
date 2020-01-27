@@ -1,28 +1,29 @@
-/* Met la largeur de la page à 100% */
 html, body {
+  /* Met la largeur de la page à 100% */
   width: 100%;
   overflow-x: hidden;
 }
-/* Affiche l'image en fond d'écran */
 body {
+  /* Affiche l'image en fond d'écran */
   background-image: url('../img/Endless-Constellation.svg');
-  /* Change la couleur du texte à "blanc" */
+  /* Change la taille, la police et la couleure du texte */
   color: white;
   font-size: 110%;
   font-family: Helvetica, Arial, sans-serif;
 }
-/* Met la largeur de chaque boite à 100% */
 div {
+  /* Met la largeur de chaque boite à 100% */
   width: 100%;
   padding-top: 1%;
   padding-bottom: 1%;
 }
-/* Permet à tous les titres d'être souligné */
 h1, h2, h3 {
+  /* Permet à tous les titres d'être souligné */
   text-decoration: underline;
 }
 /* Boite "présentation" */
 #presentation {
+  /* Aligne le texte au centre de sa boite */
   text-align: center;
 }
 /* image de présentation */
@@ -30,6 +31,7 @@ h1, h2, h3 {
   width: 15%;
 }
 #premierParagraphe {
+  /* Ajoute de l'espace vite à l'intérieur du premier paragraphe */
   padding-left: 30%;
   padding-right: 30%;
 }
@@ -41,20 +43,27 @@ h1, h2, h3 {
   padding-left: 0;
 }
 #listeDeCompetences li {
+  /* Affiche la liste sur une ligne */
   display: inline;
-  border: 3px solid green;
+  background-color: #606060;
+  border-radius: 50px;
   padding: 5px;
 }
 #deuxiemeCompetence {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#troisièmeCompetence {
+  margin-right: 10%;
 }
 /* Boite "portfolio" */
 #portfolio {
   text-align: center;
 }
 #premierePhoto {
+  /* Met la hauteur de la photo à 300 pixels */
   height: 300px;
+  /* Ajoute des bordures de 8 pixels, en cadre et bleues */
   border: 8px outset blue;
 }
 #deuxiemePhoto {
